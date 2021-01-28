@@ -1,0 +1,17 @@
+﻿#@retail@
+## Interface: 90002
+#@end-retail@
+#@non-retail@
+# ## Interface: 11305
+#@end-non-retail@
+## Title:|cffffe00a<|r|cffff7d0aDBM|r|cffffe00a>|r |cff69ccf0Persona Music Pack|r
+## DefaultState: enabled
+## RequiredDeps: DBM-Core
+## Author: Nessfalco
+## Version: @project-version@
+## X-DBM-VictoryPack: 1
+## X-DBM-VictoryPack-GlobalName: DBMVPPersonaMusicPack
+## X-DBM-MusicPack: 1
+## X-DBM-MusicPack-GlobalName: DBMMPPersonaMusicPack
+
+LoadList.lua
