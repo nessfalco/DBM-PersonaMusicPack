@@ -40,34 +40,7 @@ function DBMMPPersonaMusicPack() -- Register Music to DBM.Music Table
 		return
 	end
 	-- All Music Table
-	insert(DBM.Music, {
-		text	= "Persona 5 - Last Surprise",
-		value	= "Interface\\AddOns\\DBM-PersonaMusicPack\\Music\\Persona 5 - Last Surprise.ogg"
-	})
-	insert(DBM.Music, {
-		text	= "Persona 5 - Life Will Change",
-		value	= "Interface\\AddOns\\DBM-PersonaMusicPack\\Music\\Persona 5 - Life Will Change.ogg"
-	})
-	insert(DBM.Music, {
-		text	= "Persona 5 - Rivers In the Desert",
-		value	= "Interface\\AddOns\\DBM-PersonaMusicPack\\Music\\Persona 5 - Rivers In the Desert.ogg"
-	})
-	insert(DBM.Music, {
-		text	= "Persona 5 - Will Power",
-		value	= "Interface\\AddOns\\DBM-PersonaMusicPack\\Music\\Persona 5 - Will Power.ogg"
-	})
-	insert(DBM.Music, {
-		text	= "Persona 5 Royal - I Believe",
-		value	= "Interface\\AddOns\\DBM-PersonaMusicPack\\Music\\Persona 5 Royal - I Believe.ogg"
-	})
-	insert(DBM.Music, {
-		text	= "Persona 5 Royal - Kichijoji 199X",
-		value	= "Interface\\AddOns\\DBM-PersonaMusicPack\\Music\\Persona 5 Royal - Kichijoji 199X.ogg"
-	})
-	insert(DBM.Music, {
-		text	= "Persona 5 Royal - Take Over",
-		value	= "Interface\\AddOns\\DBM-PersonaMusicPack\\Music\\Persona 5 Royal - Take Over.ogg"
-	})
+	
 	insert(DBM.Music, {
 		text	= "Persona 3 - Burn My Dread",
 		value	= "Interface\\AddOns\\DBM-PersonaMusicPack\\Music\\Persona 3 - Burn My Dread.ogg"
