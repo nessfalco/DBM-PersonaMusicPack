@@ -85,6 +85,18 @@ function DBMMPPersonaMusicPack() -- Register Music to DBM.Music Table
 		value	= "Interface\\AddOns\\DBM-PersonaMusicPack\\Music\\Persona 3 - When The Moon's Reaching Out Stars.ogg"
 	})
 	insert(DBM.Music, {
+		text	= "Persona 3 Portable - Soul Phrase",
+		value	= "Interface\\AddOns\\DBM-PersonaMusicPack\\Music\\Persona 3 Portable - Soul Phrase.ogg"
+	})
+	insert(DBM.Music, {
+		text	= "Persona 3 Portable - A Way of Life",
+		value	= "Interface\\AddOns\\DBM-PersonaMusicPack\\Music\\Persona 3 Portable - A Way of Life.ogg"
+	})		
+	insert(DBM.Music, {
+		text	= "Persona 3 Portable - Wiping All Out",
+		value	= "Interface\\AddOns\\DBM-PersonaMusicPack\\Music\\Persona 3 Portable - Wiping All Out.ogg"
+	})
+	insert(DBM.Music, {
 		text	= "Persona 4 - I'll Face Myself-Battle",
 		value	= "Interface\\AddOns\\DBM-PersonaMusicPack\\Music\\Persona 4 - I'll Face Myself-Battle.ogg"
 	})
@@ -113,20 +125,46 @@ function DBMMPPersonaMusicPack() -- Register Music to DBM.Music Table
 		value	= "Interface\\AddOns\\DBM-PersonaMusicPack\\Music\\Persona 4 - Signs of Love.ogg"
 	})
 	insert(DBM.Music, {
-		text	= "Final Fantasy XIV OST - Shiva First Phase Theme [Footsteps in the Snow]",
-		value	= "Interface\\AddOns\\DBM-PersonaMusicPack\\Music\\Final Fantasy XIV OST - Shiva First Phase Theme [Footsteps in the Snow].ogg"
+		text	= "Persona 5 - Last Surprise",
+		value	= "Interface\\AddOns\\DBM-PersonaMusicPack\\Music\\Persona 5 - Last Surprise.ogg"
 	})
 	insert(DBM.Music, {
-		text	= "FFXIV Shadowbringers - Insatiable",
-		value	= "Interface\\AddOns\\DBM-PersonaMusicPack\\Music\\FFXIV Shadowbringers - Insatiable.ogg"
+		text	= "Persona 5 - Life Will Change",
+		value	= "Interface\\AddOns\\DBM-PersonaMusicPack\\Music\\Persona 5 - Life Will Change.ogg"
 	})
 	insert(DBM.Music, {
-		text	= "Golden Sun - Battle Theme",
-		value	= "Interface\\AddOns\\DBM-PersonaMusicPack\\Music\\Golden Sun - Battle Themee.ogg"
+		text	= "Persona 5 - Rivers In the Desert",
+		value	= "Interface\\AddOns\\DBM-PersonaMusicPack\\Music\\Persona 5 - Rivers In the Desert.ogg"
+	})
+	insert(DBM.Music, {
+		text	= "Persona 5 - Will Power",
+		value	= "Interface\\AddOns\\DBM-PersonaMusicPack\\Music\\Persona 5 - Will Power.ogg"
+	})
+	insert(DBM.Music, {
+		text	= "Persona 5 Royal - I Believe",
+		value	= "Interface\\AddOns\\DBM-PersonaMusicPack\\Music\\Persona 5 Royal - I Believe.ogg"
+	})
+	insert(DBM.Music, {
+		text	= "Persona 5 Royal - Kichijoji 199X",
+		value	= "Interface\\AddOns\\DBM-PersonaMusicPack\\Music\\Persona 5 Royal - Kichijoji 199X.ogg"
+	})
+	insert(DBM.Music, {
+		text	= "Persona 5 Royal - Take Over",
+		value	= "Interface\\AddOns\\DBM-PersonaMusicPack\\Music\\Persona 5 Royal - Take Over.ogg"
+	})
+	insert(DBM.Music, {
+		text	= "Persona 5 Royal - Throw Away Your Mask",
+		value	= "Interface\\AddOns\\DBM-PersonaMusicPack\\Music\\Persona 5 Royal - Throw Away Your Mask.ogg"
+	})
+	insert(DBM.Music, {
+		text	= "Persona 5 Strikers - Daredevil",
+		value	= "Interface\\AddOns\\DBM-PersonaMusicPack\\Music\\Persona 5 Strikers - Daredevil.ogg"
+	})
+	insert(DBM.Music, {
+		text	= "Persona 5 Strikers - You Are Stronger",
+		value	= "Interface\\AddOns\\DBM-PersonaMusicPack\\Music\\Persona 5 Strikers - You Are Stronger.ogg"
 	})
 	
-
-
 
 	-- Dungeon BGM Table
 	if DBM.DungeonMusic then
@@ -169,7 +207,7 @@ function DBMMPPersonaMusicPack() -- Register Music to DBM.Music Table
 
 	end
 
-	-- Boss BGM Table
+-- 	-- Boss BGM Table
 	if DBM.BattleMusic then
 		insert(DBM.BattleMusic, {
 			text	= "Persona 3 - Burn My Dread",
@@ -182,6 +220,18 @@ function DBMMPPersonaMusicPack() -- Register Music to DBM.Music Table
 		insert(DBM.BattleMusic, {
 			text	= "Persona 3 - When The Moon's Reaching Out Stars",
 			value	= "Interface\\AddOns\\DBM-PersonaMusicPack\\Music\\Persona 3 - When The Moon's Reaching Out Stars.ogg"
+		})		
+		insert(DBM.BattleMusic, {
+			text	= "Persona 3 Portable - Soul Phrase",
+			value	= "Interface\\AddOns\\DBM-PersonaMusicPack\\Music\\Persona 3 Portable - Soul Phrase.ogg"
+		})
+		insert(DBM.BattleMusic, {
+			text	= "Persona 3 Portable - A Way of Life",
+			value	= "Interface\\AddOns\\DBM-PersonaMusicPack\\Music\\Persona 3 Portable - A Way of Life.ogg"
+		})		
+		insert(DBM.BattleMusic, {
+			text	= "Persona 3 Portable - Wiping All Out",
+			value	= "Interface\\AddOns\\DBM-PersonaMusicPack\\Music\\Persona 3 Portable - Wiping All Out.ogg"
 		})
 		insert(DBM.BattleMusic, {
 			text	= "Persona 4 - I'll Face Myself-Battle",
@@ -238,6 +288,18 @@ function DBMMPPersonaMusicPack() -- Register Music to DBM.Music Table
 		insert(DBM.BattleMusic, {
 			text	= "Persona 5 Royal - Take Over",
 			value	= "Interface\\AddOns\\DBM-PersonaMusicPack\\Music\\Persona 5 Royal - Take Over.ogg"
+		})
+		insert(DBM.BattleMusic, {
+			text	= "Persona 5 Royal - Throw Away Your Mask",
+			value	= "Interface\\AddOns\\DBM-PersonaMusicPack\\Music\\Persona 5 Royal - Throw Away Your Mask.ogg"
+		})
+		insert(DBM.BattleMusic, {
+			text	= "Persona 5 Strikers - Daredevil",
+			value	= "Interface\\AddOns\\DBM-PersonaMusicPack\\Music\\Persona 5 Strikers - Daredevil.ogg"
+		})
+		insert(DBM.BattleMusic, {
+			text	= "Persona 5 Strikers - You Are Stronger",
+			value	= "Interface\\AddOns\\DBM-PersonaMusicPack\\Music\\Persona 5 Strikers - You Are Stronger.ogg"
 		})
 		
 	end
