@@ -114,6 +114,10 @@ function DBMMPPersonaMusicPack() -- Register Music to DBM.Music Table
 		value	= "Interface\\AddOns\\DBM-PersonaMusicPack\\Music\\Persona 5 - Will Power.ogg"
 	})
 	insert(DBM.Music, {
+		text	= "Persona 5 - Beneath the Mask -Rain-",
+		value	= "Interface\\AddOns\\DBM-PersonaMusicPack\\Music\\Persona 5 - Beneath the Mask -Rain-.ogg"
+	})
+	insert(DBM.Music, {
 		text	= "Persona 5 Royal - I Believe",
 		value	= "Interface\\AddOns\\DBM-PersonaMusicPack\\Music\\Persona 5 Royal - I Believe.ogg"
 	})
@@ -168,6 +172,10 @@ function DBMMPPersonaMusicPack() -- Register Music to DBM.Music Table
 		insert(DBM.DungeonMusic, {
 			text	= "Persona 5 - Rivers In the Desert",
 			value	= "Interface\\AddOns\\DBM-PersonaMusicPack\\Music\\Persona 5 - Rivers In the Desert.ogg"
+		})
+		insert(DBM.DungeonMusic, {
+			text	= "Persona 5 - Beneath the Mask -Rain-",
+			value	= "Interface\\AddOns\\DBM-PersonaMusicPack\\Music\\Persona 5 - Beneath the Mask -Rain-.ogg"
 		})
 		insert(DBM.DungeonMusic, {
 			text	= "Persona 5 Royal - I Believe",
@@ -249,6 +257,10 @@ function DBMMPPersonaMusicPack() -- Register Music to DBM.Music Table
 		insert(DBM.BattleMusic, {
 			text	= "Persona 5 - Will Power",
 			value	= "Interface\\AddOns\\DBM-PersonaMusicPack\\Music\\Persona 5 - Will Power.ogg"
+		})
+		insert(DBM.BattleMusic, {
+			text	= "Persona 5 - Beneath the Mask -Rain-",
+			value	= "Interface\\AddOns\\DBM-PersonaMusicPack\\Music\\Persona 5 - Beneath the Mask -Rain-.ogg"
 		})
 		insert(DBM.BattleMusic, {
 			text	= "Persona 5 Royal - I Believe",
